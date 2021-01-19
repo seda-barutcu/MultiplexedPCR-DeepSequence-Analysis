@@ -3,3 +3,8 @@ Identify and count gene-specific amplicon reads from high-throughput sequencing 
 
 Systen requirements Python2 or Python3.
 
+C19SS_pilot_R1_nonSpecAmp.py : This code processes each fastq file given as a name-list in "filelist_R1.txt" text file (line75), and outputs the non-specific amplicons binned to each individual forward primer in the multiplexed pcr.
+In addition, the total numbers of the non-specific amlicons are summed up by the type of sample such as "water, Twist, LTRI(patient-sample)" for the pilot cohort processed for C19-SparSeq, and reported for each primer per sample category.
+
+C19SS_pilot_R2_nonSpecAmp.py : This code processes each fastq file given as a name-list in "filelist_R2.txt" text file (line75), and outputs the non-specific amplicons binned to each individual forward primer in the multiplexed pcr.
+In addition, the total numbers of the non-specific amlicons are summed up by the type of sample such as "water, Twist, LTRI(patient-sample)" for the pilot cohort processed for C19-SparSeq, and reported for each primer per sample category.
